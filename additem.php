@@ -81,16 +81,16 @@ if(isset($_POST['iid'], $_POST['iname'], $_POST['idescription'], $_POST['iprice'
 
             <select name="catalogueid">
             <?php
-                $sql = "SELECT cid, cname FROM Catalogue";
+                $sql = "SELECT id, cname FROM Catalogue";
                 $stmt = $pdo->prepare($sql);
                 //Thiết lập kiểu dữ liệu trả về
                 $stmt->setFetchMode(PDO::FETCH_ASSOC);
                 $stmt->execute();
                 $resultSet = $stmt->fetchAll();
                 foreach ($resultSet as $row) {
-                    $cId = $row['cid'];
+                    $Id = $row['id'];
                     $cName = $row['cname'];
-                    echo "<option value='$cId'>$cName</option>";
+                    echo "<option value='$Id'>$cName</option>";
                 }
             ?>
             </select><br><br>
