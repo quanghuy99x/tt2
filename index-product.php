@@ -42,7 +42,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <div class="container w3-padding-large" id="portfolio">
         <div class="w3-bottombar">
             
-            <div class="w3-panel w3-border w3-pink w3-round-large w3-padding-left-16">        
+            <div class="w3-panel w3-border w3-black w3-round-large w3-padding-100">        
                 <p class="w3-xlarge w3-serif" style="text-decoration: cornflowerblue">CATALOGUE</p>             
 
                 <?php 
