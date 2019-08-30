@@ -30,6 +30,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </header>
   <!--End of Header -->
 	
+ <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.php" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="index-product.php" class="w3-bar-item w3-button w3-padding-large">Product</a>
+   
+  </div>
+</div>
+	
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
@@ -93,20 +101,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 	</script>
 
 	<script>
-		var myIndex = 0;
-		carousel();
-
-		function carousel() {
-		  var i;
-		  var x = document.getElementsByClassName("mySlides");
-		  for (i = 0; i < x.length; i++) {
-		    x[i].style.display = "none";  
-		  }
-		  myIndex++;
-		  if (myIndex > x.length) {myIndex = 1}    
-		  x[myIndex-1].style.display = "block";  
-		  setTimeout(carousel, 5000); // Change image every 5 seconds
-		}
-	</script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 </body>
 </html>
