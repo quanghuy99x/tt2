@@ -37,21 +37,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
    
   </div>
 </div>
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>About us</h1>
-      <h5 class="w3-padding-32">Currently there are 1000 customer have visited our website and find their product. Most of our customer have feedback about our product is very good and relyable</h5>
-
-    </div>
-
-    <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
-    </div>
-  </div>
-</div>
-
 <!-- Second Grid -->
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
