@@ -18,7 +18,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
     <a href="#home" class="w3-bar-item w3-button">ATN TOY SHOP MANAGER</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-left w3-hide-small">
+    <div class="w3-right w3-hide-small">
       <a href="index.php" class="w3-bar-item w3-button">Home</a>
     </div>
   </div>
@@ -28,7 +28,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
+<div class="w3-main">
 
   <!-- Header -->
   <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
