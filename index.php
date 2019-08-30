@@ -46,94 +46,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-main" style="margin-left:300px">
 
   <!-- Header -->
-  <header>
-      <a href="#"><img src="images/logo.PNG" style="width:60px; border-style: solid" class="w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-        <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-    
-        <div class="w3-container ">
-            <div class="w3-panel w3-sand w3-padding-16">
-                <h1 style="text-align: center; font-family: Bahnschrift">WELCOME TO THE WORLD OF LEGO</h1>
-            </div>
-        <div class="w3-content w3-section " style="max-width:750px">
-                <img class="mySlides" src="images/lego1.jpg" style="width:100%">
-                <img class="mySlides" src="images/lego2.jpg" style="width:100%">
-                <img class="mySlides" src="images/lego3.jpg" style="width:100%">
-            </div>
-        </div>
-  </header>
+ <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">START PAGE</h1>
+  <p class="w3-xlarge">Where you can find your toy here!</p>
+</header>
   <!--End of Header -->
-        
- 
-  
-  
-
-  <!-- ABOUT -->
-<div class="w3-container w3-padding-large w3-grey">
-  <div class="w3-row-padding w3-padding-16" id="about">
-    <div class="w3-col m4">
-        <img src="images/About.PNG" style="width:70%; border-style: solid; border-color: black">
-    </div>
-    <div class="w3-col m8 about-style">
-        <h4><b>ABOUT THE LEGO WORLD</b></h4>
-        <p>
-            The LEGO WORLD is a privately held, family-owned company with headquarters in Billund, Denmark, and main offices in Enfield, USA, London, UK, Shanghai, China, and Singapore. Founded in 1932 by Ole Kirk Kristiansen, and based on the iconic LEGO® brick, it is one of the world's leading manufacturers of play materials.
-        </p>
-    </div>
-  </div>
-  
-  <div class="w3-row-padding w3-padding-16">
-    <div class="w3-col m8 about-style">
-        <p>
-             Specialist in high quality toys with EDUCATION and help CREATE CREATIVITY for children
-        </p>
-        <p>
-            All products are approved by international standards, ensuring QUALITY and absolute SAFETY
-        </p>
-        <p>
-            Diversified with over 1,000 types of items for children of all ages
-        </p>
-        
-    </div>
-    <div class="w3-col m4">
-        <img src="images/About1.png" style="width:70%" class="w3-right">
-    </div>
-  </div> 
-</div>
-  
-
-  
-    
-    
-<div class="w3-container w3-padding-large" style="margin-bottom:32px"> 
-    
-    <h4>Should you believe in our shop?</h4>
-    <!-- Progress bars / Skills -->
-    <p>Yes, you should</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:100%">100%</div>
-    </div> 
-       
-</div>
-  
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-large w3-grey">
-    <h4 id="contact"><b>Contact Me</b></h4>
-    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
-      <div class="w3-third w3-dark-grey">
-        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-        <p>thanhldgch17337@fpt.edu.vn</p>
-      </div>
-      <div class="w3-third w3-teal">
-        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
-        <p>Chicago, US</p>
-      </div>
-      <div class="w3-third w3-dark-grey">
-        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
-        <p>512312311</p>
-      </div>
-    </div>
-    
-  </div>
+	
  <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
   <div class="w3-xlarge w3-padding-32">
