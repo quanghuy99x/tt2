@@ -46,7 +46,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
     <div class="w3-twothird">
       <h1>About us</h1>
-      <h5 class="w3-padding-32">Currently there are 1000 customer have visited our website and find their product. Most of our customer have feedback about our product is very good and relyable</h5>
+      <h4 class="w3-padding-32">Currently there are 1000 customer have visited our website and find their product. Most of our customer have feedback about our product is very good and relyable</h4>
       <h5 class="w3-padding-32">Thank you for visting and buying our product, we hope to see you again</h5>
       <p class="w3-text-grey">Have a nice day</p>
     </div>
