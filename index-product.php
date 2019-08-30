@@ -18,28 +18,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
     <a href="#home" class="w3-bar-item w3-button">ATN TOY SHOP MANAGER</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
+    <div class="w3-left w3-hide-small">
       <a href="index.php" class="w3-bar-item w3-button">Home</a>
     </div>
   </div>
 </div>
-
-
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3; width:300px;" id="mySidebar"><br>
-  <div class="w3-container w3-bottombar w3-border-red">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-large w3-padding w3-hover-red" title="close menu">
-      <i class="fa fa-remove"></i>
-    </a>
-    <h4 style="text-align: center"><b> </b></h4>
-    <p class="w3-text-grey"></p>
-  </div>
-    <br><br>
-  <div class="w3-bar-block">
-    <a href="index.php" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-arrow-left fa-fw w3-margin-right"></i>Home</a>        
-  </div> 
-</nav>
-<!--End of Sidebar/menu -->
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
