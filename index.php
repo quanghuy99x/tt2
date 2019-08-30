@@ -134,32 +134,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </div>
     
   </div>
-
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-32 w3-dark-grey">
-	  <div class="w3-row-padding">
-	    <div class="address-style">
-	      <h4><b>Address</b></h4>
-	        <p>4043 N Ravenswood Ave, Chicago, IL 60613</p>
-	        <p>United States</p>
-	    </div> 
-	    
-
-	    <div class="address-style">
-	      <h4><b>Popular tags</b></h4>
-	      <p>
-	        <span class="w3-tag w3-black w3-margin-bottom">LEGO</span> 
-	        <span class="w3-tag w3-grey w3-small w3-margin-bottom">LEGO Technic</span>
-	        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Creative</span>
-	        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Intelligent</span>        
-	      </p>
-	    </div>
-
-	  </div>
-  </footer>
-  
-  <div class="w3-black w3-center w3-padding-24">Powered by LEGO World</div>
-
+ <!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="#">Mikey</a></p>
+</footer>
 </div> <!-- End page content -->
 
 	<script>
