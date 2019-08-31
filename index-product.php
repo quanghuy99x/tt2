@@ -94,9 +94,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
             include("direction.php");
         ?>
 
-        <?php
-        echo "<table>";
-            foreach ($resultSet as $row) 
+       <?php
+        echo "<table>";                
+            
+            while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) 
             {    
                 echo "<tr>";
                     for($i=1;$i<=3;$i++)
@@ -111,17 +112,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
                                 $iStatus = $row['istatus'];
                                 $iSize = $row['isize'];
                                 $iImage = $row['iimage'];
-
                                 $link_image = "./images/item/$iImage";
                                 //$link_detail="?direct=product_detail&id=".$iId;
 
                                 echo "<a href='$link_detail'>";
-                                    echo "<img src='$link_image' width='200px'>";
+                                echo "<img src='$link_image' width='200px'>";
                                 echo "</a>";
                                 echo "<br>";  
 
-                                echo "<a href='$link_detail'>";
-                                    echo $iName;
+                                
+                                echo $iName;
                                 echo "</a>";
                                 echo "<br>";  
 
@@ -141,7 +141,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
                 echo "</tr>";
             }
         echo "</table>";
-        ?>        
-    </div> 
+        ?>
+  </div>
     <!--End of Product container-->
     
