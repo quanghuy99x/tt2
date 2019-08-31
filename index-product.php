@@ -20,6 +20,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="index.php" class="w3-bar-item w3-button">Home</a>
+      <a href="admin.php" class="w3-bar-item w3-button">Admin</a>
     </div>
   </div>
 </div>
